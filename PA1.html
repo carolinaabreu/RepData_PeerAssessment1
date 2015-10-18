@@ -251,7 +251,7 @@ steps_median_fill &lt;- median(fill_steps_per_day$steps, na.rm=TRUE)</code></pre
 </div>
 <div id="are-there-differences-in-activity-patterns-between-weekdays-and-weekends" class="section level2">
 <h2>Are there differences in activity patterns between weekdays and weekends?</h2>
-<p>```</p>
+<p>We do this comparison with the table with filled-in missing values.<br />1. Augment the table with a column that indicates the day of the week<br />2. Subset the table into two parts - weekends (Saturday and Sunday) and weekdays (Monday through Friday).<br />3. Tabulate the average steps per interval for each data set.<br />4. Plot the two data sets side by side for comparison.</p>
 <p>We can see at the graph above that activity on the weekday has the greatest peak from all steps intervals. But, we can see too that weekends activities has more peaks over a hundred than weekday. This could be due to the fact that activities on weekdays mostly follow a work related routine, where we find some more intensity activity in little a free time that the employ can made some sport. In the other hand, at weekend we can see better distribution of effort along the time.</p>
 </div>
 
