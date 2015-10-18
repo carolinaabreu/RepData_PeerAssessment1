@@ -210,7 +210,7 @@ The mean is **`r format(steps_mean_fill,digits = 8)`** and median is **`r format
 
 ### Do these values differ from the estimates from the first part of the assignment?
 
-Yes, these values do differ slightly.
+Yes, the values do differ slightly.
 
 - **Before filling the data**
     1. Mean  : **`r format(steps_mean,digits = 8)`**
